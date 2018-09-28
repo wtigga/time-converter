@@ -13,58 +13,10 @@ output_lines = {'en': 'Sale starts on {DD} of November at {HH}:{MM} {am/pm} ({TI
                 'fr': 'La vente commence le {JJ} de novembre à {HH}: {MM} {am/pm} ({TIMEZONE})'}
 
 # connects time zone and sale day (first number) and sale hour (second number)
-sale_start_time = {
-    'GMT': '10-13',
-    'GMT-1': '10-12',
-    'GMT-2': '10-11',
-    'GMT-3': '10-10',
-    'GMT-4': '10-09',
-    'GMT-5': '10-08',
-    'GMT-6': '10-07',
-    'GMT-7': '10-06',
-    'GMT-8': '10-05',
-    'GMT-9': '10-04',
-    'GMT-10': '10-03',
-    'GMT-11': '10-02',
-    'GMT+1': '10-14',
-    'GMT+2': '10-15',
-    'GMT+3': '10-16',
-    'GMT+4': '10-17',
-    'GMT+5': '10-18',
-    'GMT+6': '10-19',
-    'GMT+7': '10-20',
-    'GMT+8': '10-21',
-    'GMT+9': '10-22',
-    'GMT+10': '10-23',
-    'GMT+11': '11-00',
-    'GMT+12': '11-02',
-    'GMT+13': '11-03',
-    'GMT+14': '11-04'}
+sale_start_time = {'''}
 
 # convert 24 hour to 12 hour system
-am_pm = {'01': '01',
-         '02': '02',
-         '03': '03',
-         '04': '04',
-         '05': '05',
-         '06': '06',
-         '07': '07',
-         '08': '08',
-         '09': '09',
-         '10': '10',
-         '11': '11',
-         '12': '12',
-         '13': '01',
-         '14': '02',
-         '15': '03',
-         '16': '04',
-         '17': '05',
-         '18': '06',
-         '19': '07',
-         '20': '08',
-         '21': '09',
-         '22': '10',
-         '23': '11'}
+am_pm = {'''}
 
 # name of time zones common in English
 time_zone_names_EN = {
